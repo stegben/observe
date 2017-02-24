@@ -8,12 +8,14 @@ except IOError:
 
 setup(
     name="observe",
-    version="0.0.2",
+    version="0.0.3",
     description="A powerfull dataframe describer with pandas.",
     license="MIT",
     author="cph",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        'pandas',
+    ],
     long_description=long_description,
     classifiers=[
         "Programming Language :: Python",
