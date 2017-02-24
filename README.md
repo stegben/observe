@@ -10,7 +10,7 @@ from observe import observe
 df = pd.DataFrame({
     'animal': ['cat', 'dog', 'cat'],
     'age': [2, 12, 5],
-    'weight': [12, , ],
+    'weight': [5, 10, np.nan],
 })
 
 print(observe(df))
